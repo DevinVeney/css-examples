@@ -1,0 +1,11 @@
+.nav {
+  background-color: beige;
+}
+body {
+  background-color: whitesmoke;
+  justify-content: center;
+}
+p {
+  padding: 12%;
+  justify-content: center;
+}
