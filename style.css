@@ -1,6 +1,10 @@
 .nav {
   background-color: beige;
 }
+h1 {
+  font-family: 'Lucida Console', 'Courier New', monospace;
+}
+
 body {
   background-color: whitesmoke;
   justify-content: center;
@@ -8,4 +12,51 @@ body {
 p {
   padding: 12%;
   justify-content: center;
+  font-family: 'Lucida Console', 'Courier New', monospace;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  float: left;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+li a:hover {
+  background-color: #52dbf0;
+  color: white;
+}
+body ol {
+  background: #ff9999;
+  padding: 20px;
+}
+
+body ul {
+  background: #3399ff;
+  padding: 20px;
+}
+
+body ol li {
+  background: #ffe5e5;
+  color: darkred;
+  padding: 5px;
+  margin-left: 35px;
+}
+
+body ul li {
+  background: #cce5ff;
+  color: darkblue;
+  margin: 5px;
 }
